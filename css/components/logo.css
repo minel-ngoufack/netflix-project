@@ -1,0 +1,15 @@
+
+.Netflix-logo p {
+  color: #333333;
+  font-size: 16px;
+  direction: ltr;
+}
+
+.logo {
+  position: relative;
+  margin: 0 3.5rem;
+  height: 100%;
+  display: block;
+  justify-content: space-between;
+}
+

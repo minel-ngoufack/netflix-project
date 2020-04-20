@@ -1,0 +1,30 @@
+.btn-blue {
+	background-color: #e50914;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Amiri','serif';
+  border-radius: 3px;
+  margin-top: 0.5rem;
+
+}
+
+#sidentifier {
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+  color: white;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+}
+a {
+  text-decoration: none;
+}
+#btn-large {
+  width: 800px;
+}
+

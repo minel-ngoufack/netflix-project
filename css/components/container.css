@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    background: black;
+    display: flex;
+    border-color: black;
+}
+.banner-container {
+  position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+
+#eleven {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.container h2 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  border : black;
+  text-justify:justify;
+}
+.text-container {
+  width: 50%;
+  height: 100%;
+  text-justify:justify;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+
+}
+#faq-block{
+    display: block;
+}
+.list-faq{
+    display:block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

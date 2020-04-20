@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Playfair+Display&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/sidebar.css");
+@import url("components/page-content.css");
+@import url("components/logo.css");
+@import url("components/animation.css");
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	margin:0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Amiri', serif;
+	font-weight: bold;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
